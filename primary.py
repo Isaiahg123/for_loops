@@ -25,6 +25,10 @@ print(
 #
 # Write Code Below #
 
+#this prints your name five times
+for x in range(5):
+  print("isaiah greenway")
+
 
 # 2 - for Loop | Printing i
 #   a. Create a for loop that runs 5 times.
@@ -40,6 +44,10 @@ print(
 #
 # Write Code Below #
 
+#this prints the values of the iterator through the loop
+for x in range(5):
+  print(x)
+ 
 
 # 3 - for Loop | Running According to the User
 #   a. Prompt the user for input in the form of an integer. Save it to a variable. This will be used as the argument
@@ -60,14 +68,14 @@ print(
 #
 # Write Code Below #
 
+#first, get a number from the user and cast it to an integer
 
 # ---------- Part 2 | Direct Access ---------- #
 print(
     '\n\n>> Section 1\n'
     '>> Part 2\n'
 )
-
-# For the following for Loops, use direct access.
+ # For the following for Loops, use direct access.
 #
 # 1 - for Loop | Printing your Name
 #   a. Create a variable named name, that stores your name as a string.
@@ -83,7 +91,7 @@ print(
 #
 # Write Code Below #
 
-
+ 
 # 2 - for Loop | Printing the User's Name
 #   a. Prompt input from the user in the form of their name. Save to a variable named name.
 #   b. Create a for loop that uses the name of the user as the sequence.
@@ -142,7 +150,8 @@ print(
 #   24
 #
 # Write Code Below #
-
+for x in range(26):
+  print(x)
 
 # 2 - for Loop | Custom Step
 #   a. Create a for loop that runs from 5 to -5.
@@ -162,4 +171,6 @@ print(
 #   -4
 #
 # Write Code Below #
+for x in range(-6):
+  print(x)
 
